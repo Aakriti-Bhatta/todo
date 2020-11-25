@@ -11,7 +11,7 @@ body {
 .main_div{
   width: 100%;
   height: 100vh;
-  background-color: #A8B7AB;
+  background-color: #8D98A7;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -20,7 +20,45 @@ body {
 .center_div{
   width: 25%;
   height: 80vh;
-  background-color: white;
-  box-shadow: 5px 5px 25px -5px rgba(0 , 0 , 0 , 0.5);
+  background-color: #f4f4f4;
+  box-shadow: 5px 5px 15px -5px rgba(0 , 0 , 0 , 0.5);
   border-radius: 15px;
+}
+h1{
+  color: white;
+  background: transparent;
+  background-color:#00A7E1 ;
+  padding: 6px 0px 2px 0px;
+  box-shadow: 5px 5px 25px -5px rgba(0 , 0 , 0 , 0.3);
+  margin-bottom: 10px;
+  text-align: center !important;
+  
+}
+input{
+  text-align: center;
+  height: 30px;
+  width: 60%;
+  top: 10px;
+  border: none;
+  font-size: 20px;
+  background: transparent;
+  border-bottom: 2px solid #00A7E1 ;
+  outline: none;
+  margin-left: 45px;
+}
+button{
+  min-height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border-color: transparent;
+  border: none;
+  outline: none;
+  background-color: #00A7E1;
+  color: #fff;
+  font-size: 30px;
+  box-shadow: 5px 5px 25px -5px rgba(0 , 0 , 0 , 0.3);
+  margin-left: 10px;
+}
+button:hover{
+  background-color: #3BC14A;
 }
