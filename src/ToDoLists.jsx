@@ -1,7 +1,15 @@
 import React from "react";
 
-const ToDoLists = () => {
-return <li> { itemval } </li>
+const ToDoLists = (props) => {
+return (
+    <>
+    <div className="todo_style">
+    <li> { props.text } </li>
+
+    </div>
+   
+    </>
+)
 };
 
-export default ToDoLists
+export default ToDoLists;

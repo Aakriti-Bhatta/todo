@@ -27,8 +27,8 @@ import ToDoLists from "./ToDoLists";
          <button onClick = {handleClick}>+</button>
          <ol>
            {/* <li> {inputList} </li> */}
-           {Items.map( (itemsval)=> {
-             <ToDoLists/>
+           {Items.map( (itemval)=> {
+             return <ToDoLists text = {itemval}/>
            })}
          </ol>
        </div>
