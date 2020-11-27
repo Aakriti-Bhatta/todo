@@ -44,7 +44,7 @@ input{
   background: transparent;
   border-bottom: 2px solid #00A7E1 ;
   outline: none;
-  margin-left: 45px;
+  margin-left: 40px;
 }
 button{
   min-height: 40px;
@@ -58,6 +58,7 @@ button{
   font-size: 30px;
   box-shadow: 5px 5px 25px -5px rgba(0 , 0 , 0 , 0.3);
   margin-left: 10px;
+  margin-top: 5px;
 }
 button:hover{
   background-color: #3BC14A;
@@ -75,3 +76,26 @@ ol li {
   color: #00A7E1;
   text-transform: capitalize;
 }
+.todo_style{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+
+.todo_style .fa-times {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #00A7E1;
+  border-radius: 50%;
+  margin: 0 15px 0 25px;
+  color: aliceblue;
+  box-shadow: 5px 5px 15px -5px rgba(0 , 0 , 0 , 0.3);
+}
+.todo_style .fa-times:hover{
+color: #FF312E;
+}
+

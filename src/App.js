@@ -16,6 +16,14 @@ import ToDoLists from "./ToDoLists";
     setInputList('');
 
   }
+
+  const deleteItems = (id) => {
+    setItems( (oldItems) => {
+      return oldItems.filter( (arrElem , index) =>{
+        return index !==id;
+      })
+    })
+  }
    return(
      <>
      <div className="main_div">
@@ -27,8 +35,8 @@ import ToDoLists from "./ToDoLists";
          <button onClick = {handleClick}>+</button>
          <ol>
            {/* <li> {inputList} </li> */}
-           {Items.map( (itemval)=> {
-             return <ToDoLists text = {itemval}/>
+           {Items.map( (itemval , index)=> {
+             return <ToDoLists text = {itemval} key = {index } id= { index } onSelect = {deleteItems}/>
            })}
          </ol>
        </div>
