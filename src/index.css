@@ -99,3 +99,25 @@ ol li {
 color: #FF312E;
 }
 
+@media (max-width: 768px){
+  .center_div{
+    width: 55%;
+  }
+  .todo_style .fa-times{
+    margin: 0 15px 0 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  input{
+    margin-left: 4px !important;
+  }
+ 
+  button{
+    margin-left: 4px;
+    min-height: 40px;
+    width: 40px;
+    color: #fff;
+    font-size: 24px;
+  }
+}
